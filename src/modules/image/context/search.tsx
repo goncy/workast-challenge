@@ -84,10 +84,10 @@ const SearchProvider = ({ children }: Props) => {
     return list;
   }
 
-  function onSearchRejected(error: string): string {
-    dispatch({ type: 'SEARCH_REJECTED', payload: error });
+  function onSearchRejected(error: Error): string {
+    dispatch({ type: 'SEARCH_REJECTED', payload: error.message });
 
-    return error;
+    return error.message;
   }
 
   function handleSearch(criteria: string): Promise<string | Gif[]> {
