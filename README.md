@@ -1,44 +1,28 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Summary
 
-## Available Scripts
+Create a single page application that allows users to search for GIFs.
 
-In the project directory, you can run:
+## User Story
 
-### `npm start`
+When the user visits the application, they can see the top 10 trending GIFs and a search box. When the user types a word on the search box, the application will look for GIFs matching the search criteria. If there is a result, we will show to the user top 20 results and a button on each GIF to add it to their favorites. When clicking on an image, the GIF will open on a new window. Favorites list will be shown in a section above the search box. If the user performs a search and there is a result which is already saved as favorite, the button will have a different style (heart, star, background color, etc, it’s up to you). Users can remove GIFs from their favorite list.
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Technical requirements
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+- The solution should be clear, concise, efficient and maintainable.
+- Use the Giphy API, all details are [here](https://developers.giphy.com/docs)
+- Use React
+- Your application should not require any extra backend service / API
+- You can use any UI/UX library that you want or even plain HTML elements with your own CSS/LESS/SASS.
+  Remember that prettier doesn’t mean better, we will look at your code so don’t spend too much time on this.
+- Please use a public repository on Github or Bitbucket and treat this assignment as a work project, doing frequent and descriptive commits as this will be evaluated as well.
+- You are of course free to use whatever resources or references that are available to you (e.g. boilerplate code), but it is expected that the design/solution will be 100% your own.
 
-### `npm test`
+## Keep in mind
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Please choose your tools wisely, do not try to impress with the latest framework/library version if you don’t know it well, pick something that you can show off how much knowledge you have and that you can work on it quickly.
 
-### `npm run build`
+This is a simple assessment but you should treat it as an application that will have a lot of traffic, that other developers will work on it simultaneously and that will be extended with new features. You should be familiar with concepts like TDD, Modularity, OOP, etc.
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Deliverables
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+You should send us back a Github/Bitbucket repository link, with clear instructions on how to build and run the application.
